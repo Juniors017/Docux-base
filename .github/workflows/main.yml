@@ -3,10 +3,10 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main  # Déclenche le déploiement quand tu pushes sur la branche "main"
+      - main  
 
 permissions:
-  contents: write  # Nécessaire pour pousser sur gh-pages
+  contents: write  
 
 jobs:
   deploy:
@@ -30,6 +30,6 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           GIT_USER: ${{ github.actor }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Token auto fourni par GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         run: |
           npx docusaurus deploy --skip-build
