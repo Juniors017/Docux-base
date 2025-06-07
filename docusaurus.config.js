@@ -19,16 +19,10 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://github.com/Juniors017/',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Docux-base/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-organizationName: 'Docux', // Usually your GitHub org/user name.
-  projectName: 'Docux', // Usually your repo name.
+ url: 'https://juniors017.github.io',
+baseUrl: '/Docux-base/',
+organizationName: 'Juniors017', // Ton nom d'utilisateur GitHub
+projectName: 'Docux-base',      // Le nom exact du dépôt GitHub
 
   onBrokenMarkdownLinks: 'warn',
   onBrokenLinks: 'ignore', // ou 'ignore'
